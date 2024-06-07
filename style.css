@@ -11,7 +11,7 @@ a {
 }
 
 button {
-    background-color: rgb(0, 157, 255);
+    background-color: #3882F6;
     width: 90px;
     color: white;
     font-family: 'Roboto';
@@ -23,7 +23,7 @@ button {
 .header {
     display: flex;
     flex-direction: row;
-    background-color: rgb(68, 69, 89);
+    background-color: #1F2937;
     align-items: center;
     padding: 10px;
     justify-content: space-around;
@@ -32,7 +32,7 @@ button {
 
 .header-header {
     font-size: 24px;
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(68, 69, 89);
+    background-color: #1F2937;
     align-items: center;
     padding: 50px;
     gap: 20px;
@@ -70,13 +70,14 @@ ul {
 
 
 .awesome-title {
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .awesome-subtext {
-    color: lightgrey;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 
@@ -101,9 +102,9 @@ ul {
 }
 
 .random-header {
-    font-size: 30px;
-    color: black;
-    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
 }
 
 .random-tiles {
@@ -127,20 +128,20 @@ ul {
 .placeholder-square {
     background-color: white;
     border-radius: 15px;
-    border: 3px solid rgb(0, 157, 255);
+    border: 3px solid #3882F6;
     width: 150px;
     height: 150px;
 }
 
 .random-subtext {
-    color: rgb(86, 86, 86);
+    color: #1F2937;
     text-align: center;
 }
 
 
 
 .quote {
-    background-color: lightgrey;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -149,9 +150,9 @@ ul {
 }
 
 .quote-body {
-    color: rgb(86, 86, 86);
-    font-size: 30px;
-    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
 }
 
 .attribution {
@@ -190,7 +191,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color:rgb(68, 69, 89);
+    background-color:#1F2937;
     padding: 20px;
     margin-top: auto;
 }
